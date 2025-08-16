@@ -17,7 +17,7 @@
 /* ------------------------ Network ------------------------ */
 int status = WL_IDLE_STATUS;
 WiFiServer httpServer(80);
-WebSocketsServer wsServer = WebSocketsServer(81);
+WebsocketsServer wsServer = WebsocketsServer(81);
 
 /* ------------------------ Motors ------------------------- */
 Adafruit_MotorShield AFMS = Adafruit_MotorShield();
